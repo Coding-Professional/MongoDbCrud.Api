@@ -1,0 +1,15 @@
+# Normalize line endings across platforms
+* text=auto
+
+# Ensure consistent diff behavior for C# files
+*.cs diff=csharp
+
+# Treat images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+*.sql text
+*.json text
+*.sh text eol=lf

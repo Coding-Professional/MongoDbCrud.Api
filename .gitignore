@@ -1,0 +1,31 @@
+# Build folders
+bin/
+obj/
+out/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# ASP.NET secrets (keep only Development if needed)
+appsettings.json
+appsettings.*.json
+!appsettings.Development.json
+
+# SQL Server local files
+*.mdf
+*.ldf
+*.ndf
